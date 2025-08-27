@@ -293,7 +293,7 @@ export default function TokenizerSection({ text }: TokenizerSectionProps) {
                   <span className="text-sm font-medium">Color by:</span>
                   <select
                     value={tokenColorMode}
-                    onChange={(e) => setTokenColorMode(e.target.value as any)}
+                    onChange={(e) => setTokenColorMode(e.target.value as "rainbow" | "semantic" | "length" | "frequency")}
                     className="text-sm border rounded px-2 py-1 bg-white"
                   >
                     <option value="rainbow">Rainbow</option>

@@ -11,7 +11,6 @@ import PerformanceMonitor from "@/components/PerformanceMonitor";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { 
   ArrowUp, 
   Github, 
@@ -22,10 +21,7 @@ import {
   FileText,
   BarChart3,
   Zap,
-  Star,
-  Award,
-  TrendingUp,
-  Clock
+  Award
 } from "lucide-react";
 import { tokenizeAllModels } from "@/lib/tokenizer";
 import { exportToCSV, exportToJSON, exportToMarkdown, exportToPDF, shareViaWebAPI } from "@/lib/export-utils";
